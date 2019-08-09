@@ -1,0 +1,12 @@
+{
+  "name": "lead/doctrine-rds-iam-auth",
+  "description": "Bundle for using IAM for RDS access (instead of username/password pair)",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "aws/aws-sdk-php-symfony": "^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
